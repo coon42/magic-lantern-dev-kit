@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ml_logo
+#
+DEF ml_logo G 0 40 Y Y 1 F N
+F0 "G" 0 -25 50 H I C CNN
+F1 "ml_logo" 25 -175 50 H V C CNN
+F2 "canon-service-cable:logo" 50 -325 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -100 200 -250 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# service_connector
+#
+DEF service_connector U 0 40 Y Y 1 F N
+F0 "U" 0 100 50 H V C CNN
+F1 "service_connector" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -50 200 -950 0 1 0 f
+X 1 1 -250 -150 100 R 50 50 1 1 I
+X 2 2 -250 -250 100 R 50 50 1 1 I
+X 3 3 -250 -350 100 R 50 50 1 1 I
+X 4 4 -250 -450 100 R 50 50 1 1 I
+X 5 5 -250 -550 100 R 50 50 1 1 I
+X 6 6 -250 -650 100 R 50 50 1 1 I
+X 7 7 -250 -750 100 R 50 50 1 1 I
+X 8 8 -250 -850 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
