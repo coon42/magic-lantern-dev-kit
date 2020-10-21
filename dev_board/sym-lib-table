@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ml_dev_board)(type Legacy)(uri ${KIPRJMOD}/symbols/ml_dev_board.lib)(options "")(descr ""))
+)
