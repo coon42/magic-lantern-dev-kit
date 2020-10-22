@@ -131,7 +131,7 @@ S 2900 1900 850  1600
 U 5F6B8251
 F0 "FTDI" 50
 F1 "ftdi.sch" 50
-F2 "5Vout" O R 3750 2250 50 
+F2 "5Vout" O L 2900 3200 50 
 F3 "3.3Vout" O R 3750 2150 50 
 F4 "1.8Vout" O R 3750 2050 50 
 F5 "TCK" O L 2900 2050 50 
@@ -144,6 +144,7 @@ F11 "RXDMPU" O R 3750 2750 50
 F12 "TXDMPU" I R 3750 2850 50 
 F13 "RXFPU" O R 3750 3000 50 
 F14 "TXFPU" I R 3750 3100 50 
+F15 "#PWREN" O L 2900 3300 50 
 $EndSheet
 Wire Wire Line
 	3750 3000 3850 3000
@@ -278,9 +279,9 @@ Wire Notes Line
 Text Notes 3900 3450 0    50   ~ 0
 RXFPU and TXFPU are reserved for future \nuse and are not used in this revision!
 Wire Wire Line
-	3750 2050 6050 2050
+	3750 2050 4550 2050
 Wire Wire Line
-	3750 2150 6250 2150
+	3750 2150 4550 2150
 $Comp
 L Connector:Conn_01x05_Male J1
 U 1 1 5F6C1AEB
@@ -303,4 +304,118 @@ F 3 "~" H 3800 4550 50  0001 C CNN
 	1    3800 4550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R13
+U 1 1 5F942104
+P 1850 2600
+F 0 "R13" H 1920 2646 50  0000 L CNN
+F 1 "4K7" H 1920 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1780 2600 50  0001 C CNN
+F 3 "~" H 1850 2600 50  0001 C CNN
+	1    1850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3200 2450 3200
+Wire Wire Line
+	2150 3200 2150 2250
+Wire Wire Line
+	1550 2750 1550 2250
+Wire Wire Line
+	1850 3300 2900 3300
+Wire Wire Line
+	1550 2250 1850 2250
+Wire Wire Line
+	1850 2450 1850 2250
+Connection ~ 1850 2250
+Wire Wire Line
+	1850 2250 2150 2250
+$Comp
+L Device:LED D5
+U 1 1 5F965889
+P 1850 3650
+F 0 "D5" H 1843 3395 50  0000 C CNN
+F 1 "Red Status LED" H 1843 3486 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+	1    1850 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 3150 1550 3650
+$Comp
+L power:GND #PWR0144
+U 1 1 5F96D0E4
+P 2150 3750
+F 0 "#PWR0144" H 2150 3500 50  0001 C CNN
+F 1 "GND" H 2155 3577 50  0000 C CNN
+F 2 "" H 2150 3750 50  0001 C CNN
+F 3 "" H 2150 3750 50  0001 C CNN
+	1    2150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3650 2150 3650
+Wire Wire Line
+	2150 3650 2150 3750
+Wire Wire Line
+	1550 3650 1700 3650
+$Comp
+L Transistor_FET:IRLML5203 Q1
+U 1 1 5F92D713
+P 1650 2950
+F 0 "Q1" H 1855 2904 50  0000 L CNN
+F 1 "IRLML5203" H 1855 2995 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1850 2875 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d" H 1650 2950 50  0001 L CNN
+	1    1650 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 2750 1850 2950
+Connection ~ 1850 2950
+Wire Wire Line
+	1850 2950 1850 3300
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F93889A
+P 4550 2050
+F 0 "TP2" H 4600 2250 50  0000 L CNN
+F 1 "1v8" H 4600 2150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4750 2050 50  0001 C CNN
+F 3 "~" H 4750 2050 50  0001 C CNN
+	1    4550 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 2050
+Wire Wire Line
+	4550 2050 6050 2050
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F939704
+P 4550 2150
+F 0 "TP3" H 4500 2200 50  0000 R CNN
+F 1 "3v3" H 4500 2300 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4750 2150 50  0001 C CNN
+F 3 "~" H 4750 2150 50  0001 C CNN
+	1    4550 2150
+	-1   0    0    1   
+$EndComp
+Connection ~ 4550 2150
+Wire Wire Line
+	4550 2150 6250 2150
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F93B23D
+P 2450 3200
+F 0 "TP1" H 2500 3350 50  0000 L CNN
+F 1 "5V" H 2500 3250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2650 3200 50  0001 C CNN
+F 3 "~" H 2650 3200 50  0001 C CNN
+	1    2450 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3200
+Wire Wire Line
+	2450 3200 2150 3200
 $EndSCHEMATC

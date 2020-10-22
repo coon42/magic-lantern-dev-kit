@@ -1169,7 +1169,7 @@ NoConn ~ 9350 5100
 NoConn ~ 9350 5000
 NoConn ~ 9350 4900
 Wire Wire Line
-	7650 6250 6350 6250
+	7650 6250 6750 6250
 $Comp
 L Device:LED D1
 U 1 1 5F7D2FB3
@@ -1453,4 +1453,13 @@ F 3 "" H 7800 1500 50  0001 C CNN
 	1    7800 1500
 	1    0    0    -1  
 $EndComp
+Text HLabel 6800 6100 2    50   Output ~ 0
+#PWREN
+Wire Wire Line
+	6800 6100 6750 6100
+Wire Wire Line
+	6750 6100 6750 6250
+Connection ~ 6750 6250
+Wire Wire Line
+	6750 6250 6350 6250
 $EndSCHEMATC
