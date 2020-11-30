@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/coon/ML/kicad/magic-lantern-dev-kit/cable/canon-service-cable.sch)
-    (date "Sat 26 Sep 2020 02:40:47 PM CEST")
+    (source /home/stephan/ML/kicad/magic-lantern-dev-kit/cable/canon-service-cable.sch)
+    (date "Sa 24 Okt 2020 21:59:34 CEST")
     (tool "Eeschema 5.1.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Conn_02x04_Odd_Even)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal)
+      (footprint Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x04_Odd_Even) (description "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -74,7 +74,7 @@
     (library (logical Connector_Generic)
       (uri /usr/share/kicad/library/Connector_Generic.lib))
     (library (logical canon)
-      (uri /home/coon/ML/kicad/magic-lantern-dev-kit/cable/canon.lib)))
+      (uri /home/stephan/ML/kicad/magic-lantern-dev-kit/cable/symbols/canon.lib)))
   (nets
     (net (code 1) (name /5)
       (node (ref U1) (pin 5))

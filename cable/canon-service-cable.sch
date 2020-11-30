@@ -19,7 +19,7 @@ U 1 1 5F629F61
 P 2850 4350
 F 0 "J1" H 2900 4667 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 2900 4576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal" H 2850 4350 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal" H 2850 4350 50  0001 C CNN
 F 3 "~" H 2850 4350 50  0001 C CNN
 	1    2850 4350
 	1    0    0    -1  
