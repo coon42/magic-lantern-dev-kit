@@ -56,9 +56,11 @@ F 3 "" H 1700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J3
+L ml_dev_board-rescue:USB_B_Mini-Connector J3
 U 1 1 5F69112B
 P 1400 3650
+AR Path="/5F69112B" Ref="J3"  Part="1" 
+AR Path="/5F6B8251/5F69112B" Ref="J3"  Part="1" 
 F 0 "J3" H 1457 4117 50  0000 C CNN
 F 1 "USB_B_Mini" H 1457 4026 50  0000 C CNN
 F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 1550 3600 50  0001 C CNN
@@ -1267,7 +1269,7 @@ U 1 1 5F775F18
 P 3400 1450
 F 0 "C16" H 3518 1496 50  0000 L CNN
 F 1 "4.7uF" H 3518 1405 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R" H 3438 1300 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 3438 1300 50  0001 C CNN
 F 3 "~" H 3400 1450 50  0001 C CNN
 	1    3400 1450
 	1    0    0    -1  
@@ -1278,7 +1280,7 @@ U 1 1 5F776C6E
 P 2900 1450
 F 0 "C15" H 3018 1496 50  0000 L CNN
 F 1 "4.7uF" H 3018 1405 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R" H 2938 1300 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2938 1300 50  0001 C CNN
 F 3 "~" H 2900 1450 50  0001 C CNN
 	1    2900 1450
 	1    0    0    -1  
