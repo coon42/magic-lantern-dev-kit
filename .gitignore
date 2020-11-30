@@ -1,0 +1,7 @@
+*.kicad_pcb-bak
+*.sch-bak
+*rescue.dcm
+*rescue.lib
+*cache.lib
+fp-info-cache
+
