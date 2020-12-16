@@ -47,32 +47,8 @@ F 3 "" H 2750 2550 50  0001 C CNN
 	1    2750 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Logic_LevelTranslator:SN74AUP1T34DCK U1
-U 1 1 5F6F517C
-P 6150 2600
-F 0 "U1" H 6400 2850 50  0000 L CNN
-F 1 "SN74AUP1T34DCK" H 6200 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6150 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 6150 2000 50  0001 C CNN
-	1    6150 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 2150 6250 2300
-Wire Wire Line
-	6150 2900 6150 3000
-$Comp
-L power:GND #PWR0102
-U 1 1 5F70162C
-P 6150 3000
-F 0 "#PWR0102" H 6150 2750 50  0001 C CNN
-F 1 "GND" H 6155 2827 50  0000 C CNN
-F 2 "" H 6150 3000 50  0001 C CNN
-F 3 "" H 6150 3000 50  0001 C CNN
-	1    6150 3000
-	1    0    0    -1  
-$EndComp
 Text Label 3950 2500 0    50   ~ 0
 RXDICU
 Text Label 3950 2600 0    50   ~ 0
@@ -81,48 +57,8 @@ Wire Wire Line
 	3750 2500 3950 2500
 Wire Wire Line
 	3750 2600 3950 2600
-Text Label 6750 2600 0    50   ~ 0
-TXDICU
-Wire Wire Line
-	6550 2600 6750 2600
-Wire Wire Line
-	5550 2600 5750 2600
-Text Label 5550 2600 2    50   ~ 0
-TXDICU_1V8
-Wire Wire Line
-	8650 2600 8850 2600
-Text Label 8850 2600 0    50   ~ 0
-RXDICU_1V8
-Wire Wire Line
-	7650 2600 7850 2600
-Text Label 7650 2600 2    50   ~ 0
-RXDICU
-$Comp
-L power:GND #PWR0104
-U 1 1 5F702159
-P 8250 3000
-F 0 "#PWR0104" H 8250 2750 50  0001 C CNN
-F 1 "GND" H 8255 2827 50  0000 C CNN
-F 2 "" H 8250 3000 50  0001 C CNN
-F 3 "" H 8250 3000 50  0001 C CNN
-	1    8250 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 2900 8250 3000
 Wire Wire Line
 	8150 2150 8150 2300
-$Comp
-L Logic_LevelTranslator:SN74AUP1T34DCK U2
-U 1 1 5F6F667F
-P 8250 2600
-F 0 "U2" H 8500 2850 50  0000 L CNN
-F 1 "SN74AUP1T34DCK" H 8300 2300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8250 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 8250 2000 50  0001 C CNN
-	1    8250 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6250 2150 8150 2150
 Connection ~ 6250 2150
@@ -268,8 +204,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 2050 6050 2300
 Connection ~ 6050 2050
-Wire Wire Line
-	6050 2050 8350 2050
 Wire Notes Line
 	3850 3500 3850 3250
 Wire Notes Line
@@ -339,7 +273,7 @@ F 3 "~" H 4750 2050 50  0001 C CNN
 $EndComp
 Connection ~ 4550 2050
 Wire Wire Line
-	4550 2050 6050 2050
+	4550 2050 5650 2050
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5F939704
@@ -435,4 +369,91 @@ Wire Wire Line
 	1450 3650 1700 3650
 Text Notes 2050 3520 0    50   ~ 0
 (Status LED)
+$Comp
+L Logic_LevelTranslator:SN74AUP1T34DCK U2
+U 1 1 5F6F667F
+P 8250 2600
+F 0 "U2" H 8500 2850 50  0000 L CNN
+F 1 "SN74AUP1T34DCK" H 8300 2300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8250 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 8250 2000 50  0001 C CNN
+	1    8250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2900 8250 3000
+$Comp
+L power:GND #PWR0104
+U 1 1 5F702159
+P 8250 3000
+F 0 "#PWR0104" H 8250 2750 50  0001 C CNN
+F 1 "GND" H 8255 2827 50  0000 C CNN
+F 2 "" H 8250 3000 50  0001 C CNN
+F 3 "" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	1    0    0    -1  
+$EndComp
+Text Label 7650 2600 2    50   ~ 0
+RXDICU
+Wire Wire Line
+	7650 2600 7850 2600
+Text Label 8850 2600 0    50   ~ 0
+RXDICU_1V8
+Wire Wire Line
+	8650 2600 8850 2600
+Text Label 5550 2600 2    50   ~ 0
+TXDICU_1V8
+Wire Wire Line
+	5550 2600 5650 2600
+$Comp
+L power:GND #PWR0102
+U 1 1 5F70162C
+P 6150 3000
+F 0 "#PWR0102" H 6150 2750 50  0001 C CNN
+F 1 "GND" H 6155 2827 50  0000 C CNN
+F 2 "" H 6150 3000 50  0001 C CNN
+F 3 "" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2900 6150 3000
+$Comp
+L Logic_LevelTranslator:SN74AUP1T34DCK U1
+U 1 1 5F6F517C
+P 6150 2600
+F 0 "U1" H 6400 2850 50  0000 L CNN
+F 1 "SN74AUP1T34DCK" H 6200 2300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6150 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 6150 2000 50  0001 C CNN
+	1    6150 2600
+	1    0    0    -1  
+$EndComp
+Text Label 6750 2600 0    50   ~ 0
+TXDICU
+$Comp
+L Device:R R15
+U 1 1 5FDCCA1F
+P 5650 2375
+F 0 "R15" H 5720 2421 50  0000 L CNN
+F 1 "1K" H 5720 2330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2375 50  0001 C CNN
+F 3 "~" H 5650 2375 50  0001 C CNN
+	1    5650 2375
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 2600
+Wire Wire Line
+	5650 2600 5750 2600
+Wire Wire Line
+	5650 2600 5650 2525
+Wire Wire Line
+	5650 2225 5650 2050
+Connection ~ 5650 2050
+Wire Wire Line
+	5650 2050 6050 2050
+Wire Wire Line
+	6050 2050 8350 2050
+Wire Wire Line
+	6550 2600 6750 2600
 $EndSCHEMATC
