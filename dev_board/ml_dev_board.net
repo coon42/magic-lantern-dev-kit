@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/coon/ML/kicad/magic-lantern-dev-kit/dev_board/ml_dev_board.sch)
-    (date "Wed 16 Dec 2020 06:52:36 PM CET")
+    (date "Wed 16 Dec 2020 07:25:07 PM CET")
     (tool "Eeschema 5.1.8")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -41,7 +41,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5F8E4039))
     (comp (ref J1)
-      (value "JTAG 3.3V")
+      (value "JTAG 3v3")
       (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x05_Male) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
