@@ -177,7 +177,7 @@ Text Label 4400 4350 0    50   ~ 0
 RXDICU_1V8
 Text Label 4400 4450 0    50   ~ 0
 TXDICU_1V8
-Text Label 4400 4650 0    50   ~ 0
+Text Label 4400 4850 0    50   ~ 0
 RXDMPU
 Text Label 4400 4750 0    50   ~ 0
 TXDMPU
@@ -261,7 +261,7 @@ Text Label 3100 4850 2    50   ~ 0
 Text Label 3050 4950 0    50   ~ 0
 8
 NoConn ~ 4400 4250
-NoConn ~ 4400 4850
+NoConn ~ 4400 4650
 NoConn ~ 4400 4950
 Wire Wire Line
 	8350 2050 8350 2300
