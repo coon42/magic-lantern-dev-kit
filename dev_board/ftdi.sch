@@ -56,7 +56,7 @@ F 3 "" H 1700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ml_dev_board-rescue:USB_B_Mini-Connector J3
+L Connector:USB_B_Mini J3
 U 1 1 5F69112B
 P 1400 3650
 AR Path="/5F69112B" Ref="J3"  Part="1" 
