@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.8)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.9)
 
   (general
     (thickness 1.6)
@@ -17,7 +17,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -2653,10 +2653,10 @@
   (gr_text "2 4 6 8\n1 3 5 7" (at 109.918 83.278 270) (layer F.SilkS) (tstamp 5F757B00)
     (effects (font (size 1.4 1.4) (thickness 0.2)))
   )
-  (gr_text NC (at 116.84 97.155 270) (layer F.SilkS) (tstamp 5F754BD0)
+  (gr_text "VCC ICU 1.8V" (at 116.84 100.190714 -90) (layer F.SilkS) (tstamp 5F754BD0)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
-  (gr_text NC (at 134.62 97.155 270) (layer F.SilkS) (tstamp 5F754BCE)
+  (gr_text "VCC MPU 3.3V" (at 134.62 100.440714 -90) (layer F.SilkS) (tstamp 5F754BCE)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
   (gr_text "RXDMPU 3.3V" (at 132.08 100.190714 270) (layer F.SilkS) (tstamp 5F754BCC)
@@ -4019,7 +4019,7 @@
   (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5FDA6AF8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 198.4 45) (xy 199.2 129.25) (xy 78.4 129.45) (xy 78.4 42.65) (xy 78.5 42.6)
@@ -4029,7 +4029,7 @@
   (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5FDA6AF5) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 78.7 42.1) (xy 198.35 44.85) (xy 199.5 129.25) (xy 78.55 129.45) (xy 78.65 42)

@@ -118,21 +118,6 @@ RXDMPU
 Text Label 4400 4750 0    50   ~ 0
 TXDMPU
 Wire Wire Line
-	4400 4550 4750 4550
-Wire Wire Line
-	4750 4550 4750 4850
-$Comp
-L power:GND #PWR0103
-U 1 1 5F74E0E7
-P 4750 4850
-F 0 "#PWR0103" H 4750 4600 50  0001 C CNN
-F 1 "GND" H 4755 4677 50  0000 C CNN
-F 2 "" H 4750 4850 50  0001 C CNN
-F 3 "" H 4750 4850 50  0001 C CNN
-	1    4750 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2600 4850 3600 4850
 Wire Wire Line
 	2600 4650 3600 4650
@@ -196,9 +181,7 @@ Text Label 3100 4850 2    50   ~ 0
 7
 Text Label 3050 4950 0    50   ~ 0
 8
-NoConn ~ 4400 4250
 NoConn ~ 4400 4650
-NoConn ~ 4400 4950
 Wire Wire Line
 	8350 2050 8350 2300
 Wire Wire Line
@@ -456,4 +439,45 @@ Wire Wire Line
 	6050 2050 8350 2050
 Wire Wire Line
 	6550 2600 6750 2600
+Text Label 4400 4250 0    50   ~ 0
+VCC_ICU_1v8
+$Comp
+L power:GND #PWR0103
+U 1 1 5F74E0E7
+P 5100 4650
+F 0 "#PWR0103" H 5100 4400 50  0001 C CNN
+F 1 "GND" H 5105 4477 50  0000 C CNN
+F 2 "" H 5100 4650 50  0001 C CNN
+F 3 "" H 5100 4650 50  0001 C CNN
+	1    5100 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4400 4950 0    50   ~ 0
+VCC_MPU_3v3
+Wire Wire Line
+	5100 4550 5100 4650
+Wire Wire Line
+	4400 4550 5100 4550
+Text Label 6175 4600 2    50   ~ 0
+VCC_ICU_1v8
+Text Label 6175 4450 2    50   ~ 0
+VCC_MPU_3v3
+Wire Wire Line
+	6175 4450 6275 4450
+Wire Wire Line
+	6175 4600 6275 4600
+NoConn ~ 6275 4450
+NoConn ~ 6275 4600
+Text Notes 6450 4600 0    50   ~ 0
+VCC MPU 3v3 and VCC ICU 1v8 are not used\nyet and only available on probe connector.
+Wire Notes Line
+	6400 4400 8250 4400
+Wire Notes Line
+	8250 4400 8250 4650
+Wire Notes Line
+	8250 4650 6400 4650
+Wire Notes Line
+	6400 4650 6400 4400
+Text Notes 5325 2400 0    50   ~ 0
+Pullup
 $EndSCHEMATC
