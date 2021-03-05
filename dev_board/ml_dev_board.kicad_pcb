@@ -2610,7 +2610,7 @@
     )
   )
 
-  (gr_text "Magic Lantern Dev Kit\nv1.00 - 10/2020" (at 133.2 117.95) (layer F.SilkS)
+  (gr_text "Magic Lantern Dev Kit\nv2.00 - 03/2021" (at 133.2 117.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 88.202738 71.84545) (end 89.207652 69.83256) (layer Edge.Cuts) (width 0.2))
