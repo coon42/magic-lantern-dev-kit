@@ -844,7 +844,7 @@ Connection ~ 2100 5350
 Text HLabel 1750 2650 0    50   Output ~ 0
 5Vout
 Text HLabel 3400 2500 2    50   Output ~ 0
-3.3Vout
+3v3Vout
 Wire Wire Line
 	1750 2650 1900 2650
 Connection ~ 1900 2650
@@ -912,7 +912,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2150 5650 2250
 Text HLabel 4000 2150 2    50   Output ~ 0
-1.8Vout
+1v8Vout
 Wire Wire Line
 	3950 2150 3950 2250
 Connection ~ 3950 2250
