@@ -480,4 +480,14 @@ Wire Notes Line
 	6400 4650 6400 4400
 Text Notes 5325 2400 0    50   ~ 0
 Pullup
+Wire Notes Line
+	3800 1300 5800 1300
+Wire Notes Line
+	5800 1300 5800 1700
+Wire Notes Line
+	5800 1700 3800 1700
+Wire Notes Line
+	3800 1700 3800 1300
+Text Notes 3850 1600 0    50   ~ 0
+1v8 voltage source is taken from FTDI and shall\nonly be used for signalling voltages as max\ncurrent is only 150mA.
 $EndSCHEMATC
