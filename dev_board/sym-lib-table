@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name ml_dev_board)(type Legacy)(uri ${KIPRJMOD}/symbols/ml_dev_board.lib)(options "")(descr ""))
-  (lib (name ml_dev_board-rescue)(type Legacy)(uri ${KIPRJMOD}/ml_dev_board-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ml_dev_board")(type "Legacy")(uri "${KIPRJMOD}/symbols/ml_dev_board.lib")(options "")(descr ""))
+  (lib (name "ml_dev_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/ml_dev_board-rescue.kicad_sym")(options "")(descr ""))
 )
