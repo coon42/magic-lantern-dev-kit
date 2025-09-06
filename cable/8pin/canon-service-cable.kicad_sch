@@ -387,7 +387,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "canon:service_connector"
+		(symbol "canon:service_connector-8pin"
 			(pin_names
 				(offset 1.016)
 			)
@@ -402,7 +402,7 @@
 					)
 				)
 			)
-			(property "Value" "service_connector"
+			(property "Value" "service_connector-8pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -437,20 +437,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "service_connector_0_1"
+			(symbol "service_connector-8pin_0_1"
 				(rectangle
 					(start -3.81 -1.27)
 					(end 5.08 -24.13)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
 			)
-			(symbol "service_connector_1_1"
+			(symbol "service_connector-8pin_1_1"
 				(pin input line
 					(at -6.35 -3.81 0)
 					(length 2.54)
@@ -601,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 102.235) (xy 97.79 102.235)
+			(xy 96.52 101.6) (xy 99.06 101.6)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +641,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 107.315) (xy 97.79 107.315)
+			(xy 96.52 106.68) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 120.015) (xy 97.79 120.015)
+			(xy 96.52 119.38) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 112.395) (xy 97.79 112.395)
+			(xy 96.52 111.76) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.935) (xy 97.79 114.935)
+			(xy 96.52 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.855) (xy 97.79 109.855)
+			(xy 96.52 109.22) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 104.775) (xy 97.79 104.775)
+			(xy 96.52 104.14) (xy 99.06 104.14)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 117.475) (xy 97.79 117.475)
+			(xy 96.52 116.84) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +760,7 @@
 		(uuid "fc0a4225-db46-4d48-8163-d522602d57cd")
 	)
 	(label "5"
-		(at 95.25 112.395 180)
+		(at 96.52 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -770,7 +770,7 @@
 		(uuid "04f5865e-f449-4408-a0c8-771cccfcb129")
 	)
 	(label "2"
-		(at 95.25 104.775 180)
+		(at 96.52 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,7 +780,7 @@
 		(uuid "2d6718e7-f18d-444d-9792-ddf1a113460c")
 	)
 	(label "6"
-		(at 95.25 114.935 180)
+		(at 96.52 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -800,7 +800,7 @@
 		(uuid "68b52f01-fa04-4908-bf88-60c62ace1cfa")
 	)
 	(label "4"
-		(at 95.25 109.855 180)
+		(at 96.52 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -820,7 +820,7 @@
 		(uuid "7e969d15-6cc0-4258-8b27-586608a21adb")
 	)
 	(label "8"
-		(at 95.25 120.015 180)
+		(at 96.52 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -840,7 +840,7 @@
 		(uuid "9d984d1b-8097-407f-92f3-3ef68867dcfa")
 	)
 	(label "1"
-		(at 95.25 102.235 180)
+		(at 96.52 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -880,7 +880,7 @@
 		(uuid "cb868d2e-5efb-4bfb-8796-88435b326918")
 	)
 	(label "7"
-		(at 95.25 117.475 180)
+		(at 96.52 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -900,7 +900,7 @@
 		(uuid "f022716e-b121-4cbf-a833-20e924070c22")
 	)
 	(label "3"
-		(at 95.25 107.315 180)
+		(at 96.52 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -918,92 +918,6 @@
 			(justify left bottom)
 		)
 		(uuid "f1dd8642-b405-490b-a449-d1cc5797fda8")
-	)
-	(symbol
-		(lib_id "canon:service_connector")
-		(at 104.14 98.425 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f627bc8")
-		(property "Reference" "U1"
-			(at 109.9312 109.9566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "service_connector"
-			(at 109.9312 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "canon-service-cable:service_connector_pads_8pin"
-			(at 104.14 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 98.425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d605b18-9ce4-4dda-9b01-67ff2208d0bb")
-		)
-		(pin "2"
-			(uuid "740bb1bd-dcea-456e-8684-c4f43e8cf057")
-		)
-		(pin "3"
-			(uuid "58105bfb-c26f-45a7-bb63-e05c168b8e4d")
-		)
-		(pin "4"
-			(uuid "7b310948-e6b0-4a8e-b94b-78c1eff28029")
-		)
-		(pin "5"
-			(uuid "e64a447c-8ab1-4920-a2ee-50db32043c3c")
-		)
-		(pin "6"
-			(uuid "cd8bfe48-613c-4adc-8292-d3270f8384d3")
-		)
-		(pin "7"
-			(uuid "9267f902-94d2-42e3-9a33-d899f9eb71ec")
-		)
-		(pin "8"
-			(uuid "ceef6dae-e021-4a79-a861-ccfda391a1cd")
-		)
-		(instances
-			(project "canon-service-cable"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
@@ -1146,6 +1060,94 @@
 			(project "canon-service-cable"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "canon:service_connector-8pin")
+		(at 105.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2942dd46-6259-4cca-87b2-2ae35c1f4458")
+		(property "Reference" "U1"
+			(at 111.76 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "service_connector-8pin"
+			(at 111.76 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "canon-service-cable:service_connector_pads_8pin"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "2b176a16-c5ce-40cd-a953-3dd89faea6bf")
+		)
+		(pin "3"
+			(uuid "a8c61cc7-028a-4c65-9652-7211cf7fb8c3")
+		)
+		(pin "2"
+			(uuid "b7fdb2f2-4b06-460a-9b76-48a1dc0663f8")
+		)
+		(pin "1"
+			(uuid "b86c5466-776a-423a-891f-fa743d456bae")
+		)
+		(pin "4"
+			(uuid "13bb8592-93a5-42a1-a5b3-81e88403febe")
+		)
+		(pin "7"
+			(uuid "1f7a5814-c38a-4503-809f-0ee62f01aaee")
+		)
+		(pin "6"
+			(uuid "a9dd4773-ace8-46a0-b8dd-cd8dce7a40b2")
+		)
+		(pin "5"
+			(uuid "bec61444-22e5-40b1-95c9-fdc787e9feaf")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U1")
 					(unit 1)
 				)
 			)

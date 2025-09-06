@@ -68,7 +68,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "service_connector"
+	(symbol "service_connector-8pin"
 		(pin_names
 			(offset 1.016)
 		)
@@ -83,7 +83,7 @@
 				)
 			)
 		)
-		(property "Value" "service_connector"
+		(property "Value" "service_connector-8pin"
 			(at 0 0 0)
 			(effects
 				(font
@@ -118,7 +118,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "service_connector_0_1"
+		(symbol "service_connector-8pin_0_1"
 			(rectangle
 				(start -3.81 -1.27)
 				(end 5.08 -24.13)
@@ -131,7 +131,7 @@
 				)
 			)
 		)
-		(symbol "service_connector_1_1"
+		(symbol "service_connector-8pin_1_1"
 			(pin input line
 				(at -6.35 -3.81 0)
 				(length 2.54)
