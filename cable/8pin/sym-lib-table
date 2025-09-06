@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name canon)(type Legacy)(uri ${KIPRJMOD}/symbols/canon.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "canon")(type "KiCad")(uri "${KIPRJMOD}/symbols/canon.kicad_sym")(options "")(descr ""))
 )
