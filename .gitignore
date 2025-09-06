@@ -3,5 +3,6 @@
 *rescue.dcm
 *rescue.lib
 *cache.lib
+*.kicad_pcb.lck
 fp-info-cache
 *.zip
