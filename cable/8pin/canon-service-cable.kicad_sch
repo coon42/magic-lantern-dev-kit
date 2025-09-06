@@ -946,7 +946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "canon-service-cable:service_connector_pads"
+		(property "Footprint" "canon-service-cable:service_connector_pads_8pin"
 			(at 104.14 98.425 0)
 			(effects
 				(font
