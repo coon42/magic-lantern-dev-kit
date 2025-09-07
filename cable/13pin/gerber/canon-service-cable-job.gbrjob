@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-09-06T15:19:08+02:00"
+    "CreationDate": "2025-09-07T14:09:05+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -62,6 +62,11 @@
       "Path": "canon-service-cable-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
+    },
+    {
+      "Path": "canon-service-cable-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
     },
     {
       "Path": "canon-service-cable-Edge_Cuts.gm1",

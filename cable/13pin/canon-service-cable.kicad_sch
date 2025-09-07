@@ -921,6 +921,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 80.01 123.19)
+		(uuid "0c090d7e-e0fa-415e-8e37-80c2d7cd1745")
+	)
+	(no_connect
+		(at 67.31 125.73)
+		(uuid "265e0edd-b460-4126-93e6-505ed9c61792")
+	)
+	(no_connect
+		(at 80.01 125.73)
+		(uuid "ef63cd2f-300d-4233-9c15-92506e21b83e")
+	)
 	(wire
 		(pts
 			(xy 96.52 127) (xy 99.06 127)
@@ -1000,16 +1012,6 @@
 			(type default)
 		)
 		(uuid "43891a3c-749f-498d-ba99-685a27689b0d")
-	)
-	(wire
-		(pts
-			(xy 80.01 125.73) (xy 82.55 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47f83edb-1395-49ce-9465-ac7b299922a6")
 	)
 	(wire
 		(pts
@@ -1143,16 +1145,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 125.73) (xy 67.31 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1467a90-3f2a-4516-a89e-dcd70d4a33f5")
-	)
-	(wire
-		(pts
 			(xy 96.52 104.14) (xy 99.06 104.14)
 		)
 		(stroke
@@ -1160,16 +1152,6 @@
 			(type default)
 		)
 		(uuid "d2de4093-1fc2-4bc1-94b6-4d0fe3426c6f")
-	)
-	(wire
-		(pts
-			(xy 80.01 123.19) (xy 82.55 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d608b844-34f8-4e63-bcaf-6a04ed5983d7")
 	)
 	(wire
 		(pts
@@ -1271,16 +1253,6 @@
 		)
 		(uuid "2d6718e7-f18d-444d-9792-ddf1a113460c")
 	)
-	(label "14"
-		(at 82.55 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d8e16e1-9560-4014-977d-6352922a41cb")
-	)
 	(label "12"
 		(at 82.55 120.65 0)
 		(effects
@@ -1300,16 +1272,6 @@
 			(justify right bottom)
 		)
 		(uuid "53cbf4d8-f75e-4013-a10e-aab835180c1a")
-	)
-	(label "15"
-		(at 64.77 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d07cff8-89f0-401e-a51e-c934e50716f5")
 	)
 	(label "6"
 		(at 96.52 114.3 180)
@@ -1390,16 +1352,6 @@
 			(justify right bottom)
 		)
 		(uuid "9d984d1b-8097-407f-92f3-3ef68867dcfa")
-	)
-	(label "16"
-		(at 82.55 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1d8f4ed-6955-4a45-8255-1488f9c85fe8")
 	)
 	(label "1"
 		(at 96.52 101.6 180)
