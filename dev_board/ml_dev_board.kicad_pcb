@@ -10631,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Value" "JTAG 3v3"
+		(property "Value" "SWD MPU 3v3"
 			(at -0.02 -8.29 180)
 			(layer "F.SilkS")
 			(uuid "565495e4-b806-425a-99bb-b8086e2db226")
